@@ -104,9 +104,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ],
           ),
         ),
-        floatingActionButton: FancyButton(
-          onPressed: _addProduct,
-        ) // This trailing comma makes auto-formatting nicer for build methods.
+        floatingActionButton:
+            FancyButton() // This trailing comma makes auto-formatting nicer for build methods.
         );
   }
 }
